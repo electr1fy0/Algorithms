@@ -1,5 +1,10 @@
 #include <iostream>
 
+// Time Complexity: O(log N)
+// Space Complexity:
+// 1. Iterative: O(1)
+// 2. Recursive: O(log N);
+
 // Iterative method
 int binarySearch1(int arr[], int target, int start, int end) {
   while (start <= end) {
